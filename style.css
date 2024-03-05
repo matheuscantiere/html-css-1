@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    color: white;
+    h1 {
+        color:#ffffff; 
+        font-family: cursive; 
+        font-size: 8ch;
+    }
+    strong {
+        color: #22D4FD;
+    }
+    span {
+        color: #22D4FD;
+        border: 1px solid #22D4FD;
+        padding: 10px;
+    }
+    p {
+        color: #F6F6F6;
+    }
+
+}
+a {
+    color: #11d3ff;
+}
