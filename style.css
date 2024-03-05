@@ -4,8 +4,14 @@
 }
 
 body {
+    height: 100vh; /* alinhar e formatar o site */
+    box-sizing: border-box;
     background-color: black;
     color: white;
+    header {
+        display: flex;
+        justify-content: center;
+    }
     h1 {
         color:#ffffff; 
         font-family: cursive; 
@@ -13,6 +19,9 @@ body {
     }
     strong {
         color: #22D4FD;
+    }
+    .titulo-principal{
+        margin: 20px;
     }
     .titulo-destaque {
         color: #22D4FD;
@@ -22,11 +31,14 @@ body {
     p {
         color: #F6F6F6;
     }
-    .texto-destaque {
-        color: red;
-    }
-
 }
 a {
     color: #11d3ff;
 }
+.apresentacao {
+    margin: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
