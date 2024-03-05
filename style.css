@@ -14,14 +14,14 @@ body {
     }
     h1 {
         color:#ffffff; 
-        font-family: cursive; 
-        font-size: 5ch;
+        font-family: cursive;
     }
     strong {
         color: #22D4FD;
     }
-    .titulo-principal{
+    .apresentacao__conteudo__titulo{
         margin: 20px;
+        font-size: 36px;
     }
     .titulo-destaque {
         color: #22D4FD;
@@ -41,4 +41,14 @@ a {
     align-items: center;
     justify-content: space-between;
 }
-
+.apresentacao__conteudo {
+    width: 615px; /*largura*/
+    height: 482px;
+}
+.apresentacao__conteudo__texto {
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium';
+}
+.apresentacao__conteudo__texto__2 {
+    font-size: 22px;
+}
